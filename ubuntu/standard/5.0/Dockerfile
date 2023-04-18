@@ -307,7 +307,7 @@ RUN goenv install $GOLANG_15_VERSION && rm -rf /tmp/* && \
     goenv install $GOLANG_19_VERSION && rm -rf /tmp/* && \
     goenv global  $GOLANG_19_VERSION
 
-RUN go get -u github.com/golang/dep/cmd/dep
+# RUN go get -u github.com/golang/dep/cmd/dep
 #****************      END GOLANG     *******************************
 
 #=======================End of layer: runtimes  =================
